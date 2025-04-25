@@ -1,0 +1,99 @@
+body{
+    max-width: 500px;
+    background-color: black;
+    color:white;
+}
+.container{
+    overflow: hidden;
+}
+
+.profile{
+    width: 40px; 
+    height:40px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.photo{
+    width: 500px; 
+    height: auto;
+    justify-content: center;
+    display: block;
+   
+}
+.text1{
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.text2{
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.profile-line{
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-line{
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.reply-line{
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.left-group{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.right-group{
+    display:flex;
+}
+.small-group{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.insight-line{
+    color:dodgerblue;
+    text-align: center;
+    margin: 13px auto;
+    font-size: 14px;
+    font-weight: 445;
+}
+
+.date-line{
+    max-width: 480px;
+    display:flex;
+    color:lightgray;
+    margin:10px auto;
+    font-size: 13px;
+}
+ 
+.line{
+    border: none;
+    height: 1px;
+    width: 480px;
+    background-color:grey;
+}
+
+div{
+    display: inline-block;
+}
